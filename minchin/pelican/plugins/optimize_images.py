@@ -83,7 +83,7 @@ def dev_mode_active(pelican):
     Check if Development Mode is active.
 
     In this mode, no images are actually optimized. Useful for speeding up
-    interations when working on your blog locally.
+    iterations when working on your blog locally.
     """
     if (
         "OPTIMIZE_IMAGES_DEV_MODE" in pelican.settings.keys()
