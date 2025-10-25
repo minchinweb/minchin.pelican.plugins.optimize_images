@@ -15,4 +15,5 @@ releaser:
       - setuptools
       - wheel
     pypi:
+      - setuptools  # random package
       # - python-dateutil

@@ -1,8 +1,13 @@
-Image Process Changelog
-=======================
+Optimize Image Changelog
+========================
 
 This Changelog is for ``minchin.pelican.plugins.optimize_images``.
 
+- :release:`1.3.0 <2025-10-24>`
+- :support:`6` Move from ``setup.py`` to ``pyproject.toml`` for project
+  metadata.
+- :support:`5` Remove namespace ``__init__.py`` files. See `CName Issue #153
+  <https://github.com/minchinweb/minchin.pelican.plugins.cname/issues/153>`_.
 - :release:`1.2.2 <2023-08-09>`
 - :support:`-` blacklist ``autoloader`` v1.2.0
 - :release:`1.2.1 <2022-07-18>`
