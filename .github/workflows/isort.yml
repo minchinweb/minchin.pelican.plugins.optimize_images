@@ -37,7 +37,7 @@ jobs:
         git add -A && git diff-index --cached --quiet HEAD || git commit -m 'isort auto-applied'
       
     - name: Push changes
-      uses: ad-m/github-push-action@v1.0.0
+      uses: ad-m/github-push-action@v1.1.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
